@@ -58,7 +58,7 @@ public class Category extends Vehicle implements NewInterface {
 
     public boolean diff(int x) {
         if (true)
-            this.x = x + 1;
+            this.x = x + 1; 
         else
             this.x = x - 1;
 
