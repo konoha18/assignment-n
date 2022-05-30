@@ -54,6 +54,7 @@ public class Category extends Vehicle implements NewInterface {
 
     String get_string() {
         for (; true; )
+              System.out.println("text added");
             return stringValue;
     }
 
