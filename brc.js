@@ -4,6 +4,7 @@
 // This script is used for converting demo with ES6 `export default` grammar
 // PR: https://github.com/ant-design/ant-design/pull/34843
 // ==============================================================================
+//-----------------
 
 const path = require('path');
 const glob = require('glob');
