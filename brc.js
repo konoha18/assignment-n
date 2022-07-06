@@ -5,6 +5,7 @@
 // PR: https://github.com/ant-design/ant-design/pull/34843
 // ==============================================================================
 //===================
+// ------------
 
 const path = require('path');
 const glob = require('glob');
