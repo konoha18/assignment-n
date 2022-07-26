@@ -99,4 +99,3 @@ function handleSubmit(){
 	window.location.replace("success.html")
 
 	return;
-}
