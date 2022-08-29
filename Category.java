@@ -21,17 +21,7 @@ public class Category extends Vehicle implements NewInterface {
         this.category = category_id + category;
     }
 
-    public void set(String category){
-        this.category=category;
-    }
-
-    private int m_variable;
-
-    public void bar(String m_name) {
-        
-        System.out.println("text added");
-        int m_val = 42;
-    }
+    
 
     public boolean getCategoryId() {
         try {
