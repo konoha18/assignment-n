@@ -115,10 +115,6 @@ public class OrbBarrier implements Barrier {
     return orbConf;
   }
   
-  /**
-   * This class implements a Watcher for usage in the barrier mechanism for ZooKeeper.
-   * 
-   */
   class BarrierWait implements Watcher {
     OrbBarrier ob;
     
