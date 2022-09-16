@@ -22,7 +22,7 @@ public class Category extends Vehicle implements NewInterface {
 
     String category;
     int categoryid;
-    final int finalfield = 1;
+    //final int finalfield = 1;
     int x, y;
 
 
