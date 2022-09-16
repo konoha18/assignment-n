@@ -130,10 +130,7 @@ public class OrbBarrier implements Barrier {
     public BarrierWait(OrbBarrier ob) {
       this.ob = ob;
     }
-    
-    /**
-     * This method processes notifications triggered by Watchers.
-     */
+   
     @Override
     public void process(WatchedEvent event) {
       synchronized (ob) {
