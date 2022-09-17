@@ -40,7 +40,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.vecmath.Matrix4d;
+if(distAll ) {
+			for(int i=0; i<traceMaxSize; i++)
+				traceIndexContainer[i]=(i+1)*i*winSize*winSize/2+(i+1)*winSizeComb1;
+		} else {
+			for(int i=0; i<traceMaxSize; i++) {
+				traceIndexContainer[i]=(i+1)*i*winSize/2+(i+1)*winSizeComb1;
 
+
+			}
+		}
 
 
 /**
