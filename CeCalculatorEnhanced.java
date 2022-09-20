@@ -35,7 +35,17 @@ import org.biojava.nbio.structure.geometry.SuperPositions;
 import org.biojava.nbio.structure.jama.Matrix;
 import org.biojava.nbio.core.sequence.compound.AminoAcidCompound;
 import org.biojava.nbio.core.sequence.compound.AminoAcidCompoundSet;
-
+import org.biojava.nbio.core.alignment.matrices.ScaledSubstitutionMatrix;
+import org.biojava.nbio.core.alignment.template.SubstitutionMatrix;
+import org.biojava.nbio.structure.*;
+import org.biojava.nbio.structure.align.model.AFP;
+import org.biojava.nbio.structure.align.model.AFPChain;
+import org.biojava.nbio.structure.align.util.AFPAlignmentDisplay;
+import org.biojava.nbio.structure.geometry.Matrices;
+import org.biojava.nbio.structure.geometry.SuperPositions;
+import org.biojava.nbio.structure.jama.Matrix;
+import org.biojava.nbio.core.sequence.compound.AminoAcidCompound;
+import org.biojava.nbio.core.sequence.compound.AminoAcidCompoundSet;
 import java.util.ArrayList;
 import java.util.List;
 
