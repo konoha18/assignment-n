@@ -138,6 +138,70 @@ public class CeCalculatorEnhanced {
 		matrixListeners = new ArrayList<MatrixListener>();
 
 	}
+	public class CeCalculatorEnhanced {
+
+	protected static final boolean isPrint = true;
+	private static final boolean showAlignmentSteps = true;
+	private static final boolean debug = true;
+
+	int[] f1;
+	int[] f2;
+	double[][]dist1;
+	double[][]dist2;
+	protected double[][]mat;
+	protected int[] bestTrace1;
+	protected int[] bestTrace2;
+	protected int[][] bestTraces1;
+	protected int[][] bestTraces2;
+	protected int nBestTrace;
+	protected int nBestTraces;
+	double[] d_ = new double[20];
+	protected int[] bestTracesN;
+	protected double bestTraceScore;
+	protected int nTrace;
+	protected double[] bestTracesScores;
+	protected int[] trace1;
+	protected int[] trace2;
+
+	protected static final 	double  zThr=-0.1;
+
+	long timeStart ;
+	long timeEnd;
+	private int nAtom;
+
+	// the equivalent positions in the alignment...
+	private int[] align_se1;
+	private int[] align_se2;
+
+
+	private int alignmentPositionOrLength;
+	private int[] bestTraceLen;
+	private Matrix r;
+	private Atom t;
+	protected int nTraces;
+
+	private double z;
+	private int[] traceIndexContainer;
+
+	protected CeParameters params;
+	// SHOULD these fields be PARAMETERS?
+
+	protected static final int nIter = 1;
+	private static final boolean distAll = false;
+
+	List<MatrixListener> matrixListeners;
+
+	public static final boolean GLOBAL_ALIGN1 = false;
+	public static final boolean GLOBAL_ALIGN2 = false;
+
+	public CeCalculatorEnhanced(CeParameters params){
+		timeStart = System.currentTimeMillis();
+		dist1= new double[0][0];
+		dist2= new double[0][0];
+		this.params = params;
+		matrixListeners = new ArrayList<MatrixListener>();
+
+	}
 
 	/**
 	 *
