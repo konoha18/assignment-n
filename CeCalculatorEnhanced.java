@@ -140,7 +140,7 @@ public class CeCalculatorEnhanced {
 	}
 	public class CeCalculatorEnhanced {
 
-	protected static final boolean isPrint = true;
+	//protected static final boolean isPrint = true;
 	private static final boolean showAlignmentSteps = true;
 	private static final boolean debug = true;
 
