@@ -8,7 +8,7 @@
  *
  *      http://www.gnu.org/copyleft/lesser.
  *
- * Copyright for this code is held jointly by the individual
+ *  for this code is held jointly by the individual
  *
  * For more information on the BioJava project and its aims,
  * or  join the biojava-l mailing list, visit the home page
