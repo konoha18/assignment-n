@@ -14,7 +14,7 @@
  * or to join the biojava-l mailing list, visit the home page
  * at:
  *
- *      http://www.biojava.org/
+ *      ://www.biojava.org/
  *
  * Created on Sep 25, 2009
  * Author: Andreas Prlic
