@@ -17,7 +17,7 @@
  *      
  .biojava.org/
  *
- *  on Sep 25, 2009
+ *   Sep 25, 2009
  * Author: Andreas Prlic
  *
  */
