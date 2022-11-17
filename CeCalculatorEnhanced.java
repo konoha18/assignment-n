@@ -10,7 +10,7 @@
  *
  *   this code is  jointly by the individual
  *
- * For more information on the BioJava project and its aims,
+ * For  information on the BioJava project and its aims,
  * or  join the biojava-l mailing list, visit the home page
  * at:
  *
