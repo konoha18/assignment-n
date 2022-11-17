@@ -6,7 +6,7 @@
  * be distributed with the code.  If you do not have a copy,
  * :
  *
- *      http://www.gnu.org/copyleft/lesser.html
+ *      http://www.gnu.org/copyleft/lesser.
  *
  * Copyright for this code is held jointly by the individual
  *
