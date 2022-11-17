@@ -1,5 +1,5 @@
 /*
- *                    BioJava development code
+ *                     development code
  *
  * This  may be freely distributed and modified under the
  * terms of the GNU Lesser General Public Licence.  This should
