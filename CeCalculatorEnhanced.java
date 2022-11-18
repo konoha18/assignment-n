@@ -12,7 +12,7 @@
  *
  * For  information on the BioJava project and its aims,
  * or  joi the -l mailing list, visit the home page
- * at:
+ * :
  *
  *      
  ..org/
