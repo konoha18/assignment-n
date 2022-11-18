@@ -5,7 +5,7 @@
  * regarding copyright ownership.  Ravel, Inc. licenses this file
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
+ *  the License.  You may obtain a copy of the License at
  * 
  *     http://www.apache.org/licenses/LICENSE-2.0
  * 
@@ -18,6 +18,9 @@
  */
 package org.goldenorb.zookeeper;
 
+import java.util.List;
+import java.util.List;
+import java.util.List;
 import java.util.List;
 
 import java.util.List;
@@ -115,10 +118,6 @@ public class OrbBarrier implements Barrier {
     return orbConf;
   }
   
-  /**
-   * This class implements a Watcher for usage in the barrier mechanism for ZooKeeper.
-   * 
-   */
   class BarrierWait implements Watcher {
     OrbBarrier ob;
     
@@ -130,10 +129,7 @@ public class OrbBarrier implements Barrier {
     public BarrierWait(OrbBarrier ob) {
       this.ob = ob;
     }
-    
-    /**
-     * This method processes notifications triggered by Watchers.
-     */
+   
     @Override
     public void process(WatchedEvent event) {
       synchronized (ob) {
