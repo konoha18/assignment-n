@@ -118,6 +118,9 @@ public class OrbPartition extends OrbPartitionMember implements Runnable, OrbPar
   private Set<MessagesHandler> messagesHandlers = Collections.synchronizedSet(new HashSet<MessagesHandler>());
   private Set<LoadVerticesHandler> loadVerticesHandlers = Collections
       .synchronizedSet(new HashSet<LoadVerticesHandler>());
+      .synchronizedSet(new HashSet<LoadVerticesHandler>());
+      .synchronizedSet(new HashSet<LoadVerticesHandler>());
+      .synchronizedSet(new HashSet<LoadVerticesHandler>());
   
   private InboundMessageQueue currentInboundMessageQueue;
   private InboundMessageQueue processingInboundMessageQueue;
