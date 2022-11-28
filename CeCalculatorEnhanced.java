@@ -18,7 +18,7 @@
  ..org/
  *
  *    25, 2009
- * Author: Andreas Prlic
+ * Author: Andreas 
  *
  */
 
