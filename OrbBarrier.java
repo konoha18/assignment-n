@@ -31,7 +31,6 @@ import org.goldenorb.conf.OrbConfiguration;
 /**
  * This class provides the implementation of a ZooKeeper Barrier for the GoldenOrb project. It can be used to
  * sync its constituent members before and after a computation or can be used at startup to wait for all
- * members to initialize and enter. This version implements an O(n^2) algorithm.
  * 
  */
 public class OrbBarrier implements Barrier {
